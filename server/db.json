@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "user",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "orders": []
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "role": "user",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001"
+      },
+      "orders": [
+        {
+          "id": 1762002129155,
+          "items": [
+            {
+              "id": "ded4",
+              "pid": 1,
+              "title": "Smartphone A12",
+              "price": 15999,
+              "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+              "quantity": 3
+            },
+            {
+              "id": "2270",
+              "pid": 2,
+              "title": "Laptop Pro X",
+              "price": 79999,
+              "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+              "quantity": 1
+            }
+          ],
+          "totalQuantity": 2,
+          "totalPrice": 127996,
+          "paymentMethod": "cod",
+          "shippingAddress": {
+            "name": "Anupama TM",
+            "phone": "09562119589",
+            "house": "thekkemoothedath house,kizhakkummuri post",
+            "city": "kozhikode",
+            "pincode": "653"
+          },
+          "status": "confirmed",
+          "date": "1/11/2025, 6:32:09 pm"
+        }
+      ]
+    },
+    {
+      "id": "1d15",
+      "name": "Anupama TM",
+      "email": "anupamaunni612@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "cart": []
+}
